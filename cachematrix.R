@@ -1,9 +1,9 @@
-# implements caching matrix inversion function. sample usage:
-# m <- matrix(c(1,2,3,4), nrow=2, ncol=2)
-# a <- makeCacheMatrix(m)
-# a$get()
-# cacheSolve(a)
-# cacheSolve(a) # retrieves from cache
+## implements caching matrix inversion function. sample usage:
+##   m <- matrix(c(1,2,3,4), nrow=2, ncol=2)
+##   a <- makeCacheMatrix(m)
+##   a$get()
+##   cacheSolve(a)
+##   cacheSolve(a) # retrieves from cache
 
 
 ## given a matrix x, return a cMatrix, really a list of functions to
